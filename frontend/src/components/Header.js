@@ -11,7 +11,7 @@ const Header = () => {
           <Navbar.Collapse id="basic-navbar-nav" style={{justifyContent:'flex-end'}}>
             <Nav className="ml-auto">
               <Nav.Link href="/cart">
-              <i class="fas fa-shopping-cart"></i>Cart
+              <i className="fas fa-shopping-cart"></i>Cart
               </Nav.Link>
               <Nav.Link href="/login"> <i className="fas fa-user"></i>Sign In</Nav.Link>
             </Nav>

@@ -1,0 +1,22 @@
+{
+  "name": "mern-e-commercial",
+  "version": "1.0.0",
+  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]            [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]            <command> [<args>]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarnoushYousefi/MERN-E-COMMERCIAL.git"
+  },
+  "author": "Farnoush Yousefi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarnoushYousefi/MERN-E-COMMERCIAL/issues"
+  },
+  "homepage": "https://github.com/FarnoushYousefi/MERN-E-COMMERCIAL#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

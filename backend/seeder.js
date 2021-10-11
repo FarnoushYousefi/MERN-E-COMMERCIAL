@@ -9,7 +9,7 @@ import Order from './models/orderModel.js'
 import connectDB from './config/db.js'
 
 dotenv.config()
-connectDB
+connectDB()
 
 const importData=async()=>{
     try{
@@ -45,7 +45,7 @@ const destroyData=async()=>{
         process.exit(1)
     }
 }
-
+console.log(process.argv)
 if (process.argv[2] ==='-d'){
     destroyData()
 }else{

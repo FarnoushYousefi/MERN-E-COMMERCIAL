@@ -8,7 +8,7 @@ const userSchema=mongoose.Schema({
     email:{
         type:String,
         required:true,
-        unique
+        unique:true
     },
     password:{
         type:String,
@@ -22,6 +22,6 @@ const userSchema=mongoose.Schema({
 },{
     timestamps:true
 })
-const user=mongoose.model('User', userSchema)
+const User=mongoose.model('User', userSchema)
 
 export default User

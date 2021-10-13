@@ -1,10 +1,10 @@
 import {createStore, combineReducers, applyMiddleware} from  'redux'
-import {productListReducer}from './reducers/productreducers'
+import {productListReducer }from './reducers/productReducers'
 import thunk from 'redux-thunk'
 import {composeWithDevTools} from 'redux-devtools-extension'
 
 const reducer=combineReducers({
-    //this is product list out of state
+    //This is what shows...this is product list out of state
     productList:productListReducer,
 })
 

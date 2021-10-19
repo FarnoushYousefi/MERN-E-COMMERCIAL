@@ -4,7 +4,7 @@ import thunk from 'redux-thunk'
 import {composeWithDevTools} from 'redux-devtools-extension'
 
 const reducer=combineReducers({
-    //This is what shows...this is product list out of state
+    //This is what shows as piece of state...this is product list out of state
     productList:productListReducer,
     productDetails:productDetailsReducer,
 })

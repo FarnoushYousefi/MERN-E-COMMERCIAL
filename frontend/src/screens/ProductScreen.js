@@ -10,9 +10,10 @@ import { listProductDetails } from '../actions/productAction'
 const ProductScreen = ({match}) => {
   const dispatch=useDispatch()
   const productDetails=useSelector(state=>
-    { console.log(state)
+    { 
          return {...state.productDetails,...state.productList}})
   const {loading, error, product,products}=productDetails
+  console.log(product)
     // const product=products.find((p)=>p._id===match.params.id)
     // const [product,setProduct]= useState({})
     useEffect(()=>{
@@ -33,7 +34,7 @@ const ProductScreen = ({match}) => {
         (
 <Row>
             <Col md={6}>
-                <Image src={products.image} alt={product.name} fluid/>
+                <Image src={product.image} alt={product.name} fluid/>
             </Col>
             <Col md={3}>
                 <ListGroup variant='flush'>

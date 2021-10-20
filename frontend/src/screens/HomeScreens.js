@@ -14,7 +14,8 @@ const HomeScreens = () => {
   const {loading, error, products} = productList
   // const [products, setProducts]=useState([])
   useEffect(() => {
-    dispatch(listProducts())
+    //request to backent to get the product
+    console.log(dispatch(listProducts()))
 
     //    const fetchProducts=async()=>{
     //        const {data} = await axios.get('api/products')
